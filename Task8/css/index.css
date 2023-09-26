@@ -1,0 +1,109 @@
+/* Start Global Css  */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Almarai', sans-serif;
+font-family: 'Cairo', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+/* End Global Css */
+
+
+/* Start Ladning */
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    background-color: #0075FF;
+
+}
+
+.landing .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.landing .container .text h2{
+    color: white;
+    font-size: 45px;
+    
+}
+
+.landing .container .text p{
+    font-size: 16px ;
+    color: #EEE;
+    font-weight: 100;
+    width: 500px;
+    margin-top: 25px;
+    max-width: 100%;
+}
+
+.landing .container .text button{
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold ; 
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin-top: 40px;
+    transition: .4s;
+}
+
+.landing .container .text button:hover{
+    opacity: .9;
+}
+@media (max-width:767px){
+    .container{
+       width: 100%;
+    }
+    body{
+        background-color: #0075FF;
+    }
+    .text{
+        padding-bottom:200px;
+        text-align: center;
+       
+    }
+    .landing .container .text h2{
+        width:550px;
+        padding-left:60px;
+    }
+    .landing .container .text p{
+        width:600px;
+        padding-top:20px;
+        font-size: 30px;
+        padding-left:10px;
+    }
+    .landing .container .text button{
+        width:430px;
+        margin-left:70;
+        }
+     img{
+            display:none;
+        }
+    }
+    
+
+    /* Write Media Query Here For Media 767px */
+        
+
+
+/* End Landing */
