@@ -1,0 +1,106 @@
+.decoration{
+    background-color:rgb(13, 27, 27);
+    background-image: url('snow1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 320px;
+}
+.headedit{
+    color:azure;
+    font-size:30px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 20px;
+    word-spacing: 7px;
+}
+.pedit{
+    color:rgba(255, 255, 255, 0.595);
+    text-align: center;
+    right:200px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.editpp{
+background-color:aliceblue;
+width: 300px;
+height:270px;
+margin-left:260px;
+margin-top:50px;
+border-style:solid;
+border-color:rgb(223, 243, 243);
+border-width: 3px;
+border-radius: 1px;
+display: inline-block;
+
+}
+.editpp2{
+background-color:aliceblue;
+width: 300px;
+height:270px;
+border-style:solid;
+border-color:rgb(223, 243, 243);
+border-width: 3px;
+border-radius: 1px;
+display: inline-block;
+margin-left:15px;
+margin-right:15px;
+
+}
+.editpp3{
+    background-color:aliceblue;
+    width: 300px;
+    height:270px;
+    border-style:solid;
+    border-color:rgb(223, 243, 243);
+    border-width: 3px;
+    border-radius: 1px;
+    display: inline-block;
+   
+   
+    }
+.iconnn{
+    padding-left:10px;
+  
+    
+}
+.summer{
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing:3px;
+    line-height:16px;
+    padding-left:3px;
+   
+
+}
+.summer1{
+    font-size:13px;
+    line-height:16px;
+    margin-top:-20px;
+    padding-left:3px;
+
+}
+.learn{
+    background-color:rgb(50, 120, 174);
+    color:white;
+    width:100px;
+    height:30px;
+    border-style:solid;
+    border-color:rgb(50, 120, 174);
+    font-size: 12px;
+    font-weight:bold;
+    text-align:center;
+    margin-left:7px;
+}
+.leannn{
+    background-color:rgba(240, 248, 255, 0);
+    color:rgb(50, 120, 174);
+    width:100px;
+    height:30px;
+    border-style:solid;
+    border-color:rgb(50, 120, 174);
+    font-size: 12px;
+    font-weight:bold;
+    text-align:center;
+    padding-top:2px;
+    margin-left:3px;
+}
