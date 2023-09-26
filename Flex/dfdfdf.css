@@ -1,0 +1,73 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-evenly;
+ 
+ }
+ .card{
+   background-color:white;
+   height:614px;
+   border-radius: 6px;
+   width: 20%;
+   box-shadow: 2px 2px 2px 2px rgb(169, 165, 165);
+  
+ }
+ :hover.card{
+     background-color: rgb(241, 241, 240);
+ }
+ 
+ .images6 img{
+    
+     width:300px;
+     height: 450px;
+     margin-top:0px;
+     object-fit: cover;
+     display: block;
+     object-fit: cover;
+     border-radius: 6px;
+     margin-left:auto;
+     margin-right:auto;
+ 
+ }
+ .iicon{
+    height:20px;
+ }
+ .container2{
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    
+ } 
+ .text{
+     font-size: 20px;
+     text-align:left;
+     margin-top:25px;
+     margin-left:20px;
+ 
+ }
+ .text.ccolor{
+     color:red;
+ }
+ .btt{
+     display: block;
+     margin-left:auto ;
+     margin-right:auto;
+     width:50%;
+     background-color: black;
+     color:white;
+     border-radius: 16px;
+     padding:6px;
+     font-size:17px;
+     cursor: pointer;
+     margin-top:15px;
+     
+ }
+ :hover.btt{
+     background-color: white;
+     border-color:black;
+     color:black;
+ }
+ 
